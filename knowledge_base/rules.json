@@ -1,0 +1,103 @@
+[
+    {
+      "name": "sistema", 
+      "pattern": "\\bque es un sistema\\b",
+      "response": "Un sistema es un conjunto de elementos que se relacionan entre sí de manera ordenada y contribuyen a lograr un objetivo en común."
+    },
+    {
+      "name": "entorno",
+      "pattern": "\\bentorno\\b",
+      "response": "El entorno es todo aquello fuera del sistema, pero de interés porque las variables exógenas pueden cambiar y afectar el comportamiento del sistema."
+    },
+    {
+      "name": "estado del sistema",
+      "pattern": "\\bestado del sistema\\b",
+      "response": "Las variables de estado contienen toda la información del sistema en un momento dado. Su selección depende de los objetivos y de las medidas de rendimiento que se evaluarán."
+    },
+    {
+      "name": "entidad",
+      "pattern": "\\bentidad\\b",
+      "response": "Una entidad es un objeto o componente del sistema de importancia que requiere una representación explícita en el modelo. Posee propiedades llamadas 'atributos'."
+    },
+    {
+      "name": "evento",
+      "pattern": "\\bevento\\b",
+      "response": "Un evento es un suceso (esperado o inesperado) que puede cambiar el estado del sistema, como la llegada o salida de una entidad."
+    },
+    {
+      "name": "actividad",
+      "pattern": "\\bactividad\\b",
+      "response": "Una actividad es una tarea de duración específica, con inicio y fin definidos, frecuentemente modelada con una distribución estadística."
+    },
+    {
+      "name": "endogenas",
+      "pattern": "\\bendógenas?\\b",
+      "response": "Las endógenas son actividades o eventos que ocurren dentro del sistema."
+    },
+    {
+      "name": "exogenas",
+      "pattern": "\\bexógenas?\\b",
+      "response": "Las exógenas son actividades o eventos que provienen del entorno y afectan al sistema."
+    },
+    {
+      "name": "modelo",
+      "pattern": "\\bque es un modelo\\b",
+      "response": "Un modelo es una representación o abstracción simplificada de la realidad, utilizada para entender, explicar, predecir o controlar sistemas complejos."
+    },
+    {
+      "name": "abierto",
+      "pattern": "\\babierto\\b",
+      "response": "Un modelo abierto interactúa con elementos externos (entorno)."
+    },
+    {
+      "name": "cerrado",
+      "pattern": "\\bcerrado\\b",
+      "response": "Un modelo cerrado está aislado del exterior y no recibe influencia de variables exógenas."
+    },
+    {
+      "name": "estaticos",
+      "pattern": "\\bestáticos?\\b",
+      "response": "Los modelos estáticos representan el sistema en un instante particular; el tiempo no juega un papel importante."
+    },
+    {
+      "name": "dinamicos",
+      "pattern": "\\bdinámicos?\\b",
+      "response": "Los modelos dinámicos representan la evolución del sistema a lo largo del tiempo."
+    },
+    {
+      "name": "deterministico",
+      "pattern": "\\bdeterminísticos?\\b",
+      "response": "Los modelos determinísticos no incluyen variables aleatorias; para un conjunto dado de parámetros de entrada siempre generan el mismo resultado."
+    },
+    {
+      "name": "estocastico",
+      "pattern": "\\bestocásticos?\\b",
+      "response": "Los modelos estocásticos incorporan variables aleatorias en sus parámetros de entrada, produciendo resultados variables."
+    },
+    {
+      "name": "continuo",
+      "pattern": "\\bcontinuos?\\b",
+      "response": "Un modelo continuo cambia su estado de forma continua en el tiempo."
+    },
+    {
+      "name": "discreto",
+      "pattern": "\\bdiscretos?\\b",
+      "response": "Un modelo discreto cambia su estado en momentos separados en el tiempo."
+    },
+    {
+      "name": "simulacion",
+      "pattern": "\\bsimulación\\b",
+      "response": "La simulación es la construcción de modelos informáticos que describen el comportamiento de interés de un sistema real a través del tiempo, permitiendo diseñar experimentos y extraer conclusiones para la toma de decisiones."
+    },
+    {
+      "name": "pasos_simulacion",
+      "pattern": ".*(pasos para simular|cuáles son los pasos para simular).*",
+      "response": "Los pasos para simular son: 1. Formulación del Problema 2. Objetivos de la Simulación 3. Conceptualización del Modelo 4. Recolección de Datos 5. Programación 6. Verificación 7. Validación 8. Diseño Experimental 9. Análisis de Corridas 10. ¿Más Corridas? 11. Documentación y Reportes 12. Implementación"
+    },
+    {
+      "name": "bibliografia",
+      "keyword": "bibliografia",
+      "pattern": "\bbibliograf(i|ía)\b",
+      "response": "Bibliografía oficial: Apuntes de cátedra de la materia Modelo y Simulación (Escalante, 2025); Shannon, J. (1975) The Mathematical Theory of Communication; Cellier, F. E. (1991) Continuous System Modeling. Opcional: Banks, J. (2001) Discrete-Event System Simulation; Law, A. M. (2014) Simulation Modeling and Analysis."
+    }
+  ]
